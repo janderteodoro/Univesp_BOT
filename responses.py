@@ -1,0 +1,1 @@
+item2 = '''Meu criador é o **@janndder**. Ele está cursando Bacharel em Ciência de Dados 🎲 pela minha Universidade Favorita, a **UNIVESP**.\n\nJander é simplesmente apaixonado por tecnologia e Python 🐍 (A linguagem que eu fui programado).\n\nEle teve como ideia, me criar para o Projeto Integrador 📚, e ajudar seus companheiros de curso, foi então que recebi vida 🧬'''

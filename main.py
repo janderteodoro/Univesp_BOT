@@ -1,22 +1,32 @@
 from json import load
-from dotenv import dotenv_values
 import discord 
-from discord.ext import commands 
-from time import sleep
-
-
-config = dotenv_values('.env')
+from discord.ext import commands
+import config
+import responses
 
 bot = commands.Bot('!')
 
 @bot.event
 async def on_ready():
-    print(f'Estou pront!o Estou conectado como {bot.user}')
+    print(f'Estou pronto! Estou conectado como {bot.user}')
+
+
 
 @bot.event 
-async def on_message(message): 
+async def on_message(message):
+    #message.content = conteúdo da mensagem
     if message.author == bot.user:
         return 
+    
+    if message.content in config.greetingsWords:
+        await message.channel.send(
+            f'''Olá {message.author.name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da **UNIVESP**, Estou aqui para **tirar suas dúvidas**!\n\n**1** - Sobre o Vestibular\n**2**- Informações sobre meu Criador'''
+        )
+    
+    if message.content == '2':
+        await message.channel.send(responses.item2)
+    
+
 
     await bot.process_commands(message)
 
@@ -29,4 +39,4 @@ async def send_hello(ctx):
 
 
 
-bot.run(config['TOKEN'])
+bot.run(config.token)
