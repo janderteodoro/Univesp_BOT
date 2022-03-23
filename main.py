@@ -2,7 +2,7 @@ from json import load
 import discord 
 from discord.ext import commands
 import config
-import responses
+from responses import responses
 
 bot = commands.Bot('!')
 
@@ -20,11 +20,17 @@ async def on_message(message):
     
     if message.content in config.greetingsWords:
         await message.channel.send(
-            f'''Olá {message.author.name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da **UNIVESP**, Estou aqui para **tirar suas dúvidas**!\n\n**1** - Sobre o Vestibular\n**2**- Informações sobre meu Criador'''
+            f'''Olá {message.author.name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da UNIVESP, Estou aqui para tirar suas dúvidas!\n\n**1** - Sobre o Vestibular\n**2** - Já é aluno? Consulte o Manual do Aluno\n**3** - Informações sobre meu Criador'''
         )
+
+    if message.content == '1': 
+        await message.channel.send(responses['item1'])
+
+    if message.content == '2': 
+        await message.channel.send(responses['item2'])
     
-    if message.content == '2':
-        await message.channel.send(responses.item2)
+    if message.content == '3':
+        await message.channel.send(responses['item3'])
     
 
 
