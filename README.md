@@ -18,7 +18,7 @@ Então temos essa estrutura de código.
 
 ![Estrutura do Código](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/codeStructure.png?raw=true)
 
-Então criamos um ambiente virtual do Python: 
+**Então criamos um ambiente virtual do Python:** 
 
 * Linux
 #####
@@ -28,7 +28,7 @@ Então criamos um ambiente virtual do Python:
 #####
 `py -m venv venv`
 
-Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:
+**Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:**
 
 * Linux
 #####
