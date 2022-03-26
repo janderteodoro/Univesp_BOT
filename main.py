@@ -1,16 +1,13 @@
-from json import load
-import discord 
+import discord
 from discord.ext import commands
-import config
-from responses import responses
+from src import config
+from src.responses import responses
 
 bot = commands.Bot('!')
 
 @bot.event
 async def on_ready():
     print(f'Estou pronto! Estou conectado como {bot.user}')
-
-
 
 @bot.event 
 async def on_message(message):
@@ -20,7 +17,7 @@ async def on_message(message):
     
     if message.content in config.greetingsWords:
         await message.channel.send(
-            f'''Olá {message.author.name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da UNIVESP, Estou aqui para tirar suas dúvidas!\n\n**1** - Sobre o Vestibular\n**2** - Já é aluno? Consulte o Manual do Aluno\n**3** - Informações sobre meu Criador'''
+            f'''Olá {message.author.name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da Univesp, Estou aqui para tirar suas dúvidas!\n\n**1** - Sobre o Vestibular\n**2** - Já é aluno? Consulte o Manual do Aluno\n**3** - Sobre a Univesp\n**4** - Sobre meu Criador\n\nPara voltar aqui digite **!menu**'''
         )
 
     if message.content == '1': 
@@ -32,15 +29,17 @@ async def on_message(message):
     if message.content == '3':
         await message.channel.send(responses['item3'])
     
+    if message.content == '4':
+        await message.channel.send(responses['item4'])
 
 
     await bot.process_commands(message)
 
 
-@bot.command(name='oi')
+@bot.command(name='menu')
 async def send_hello(ctx):
     name = ctx.author.name 
-    response = f'Olá {name}, sou assistente virtual da UNIVESP, qual a sua dúvida?'
+    response = f'''Olá {name}, Eu sou o **UniDroid** 🤖\nO assistente virtual da Univesp, Estou aqui para tirar suas dúvidas!\n\n**1** - Sobre o Vestibular\n**2** - Já é aluno? Consulte o Manual do Aluno\n**3** - Sobre a Univesp\n**4** - Sobre meu Criador\n\nPra Voltar aqui digite **!menu**'''
     await ctx.send(response)
 
 
