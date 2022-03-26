@@ -52,5 +52,5 @@ Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente v
 * Agora vamos instalar as dependências do projeto
 #####
 `pip install -r requirements.txt`
-## Variáveis de Ambiente 
-TOKEN=ABCXPTO
+
+* Agora só falta colocarmos nosso token, que está disponível no Discord Developers. Na raiz do projeto crie um novo arquivo `.env` e ele coloque seu token. `TOKEN=coloqueseutokenaqui`
