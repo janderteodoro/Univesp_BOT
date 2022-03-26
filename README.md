@@ -20,37 +20,30 @@ Então temos essa estrutura de código.**
 
 **Então criamos um ambiente virtual do Python:** 
 
-* Linux
-#####
+* Linux<br>
 `python3 -m venv venv`
 
-* Windows
-#####
+* Windows<br>
 `py -m venv venv`
 
 **Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:**
 
-* Linux
-#####
+* Linux<br>
 `source venv/bin/activate`
 
-* Windows
-#####
+* Windows<br>
 `venv\Scripts\activate`
 
 Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
 
 
-* Estrutura do código após criar ambiente virtual
-#####
+* Estrutura do código após criar ambiente virtual<br>
 ![Estutura atualizada](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144440-223x297.png?raw=true)
 
-* Ambiente ativo
-#####
+* Ambiente ativo<br>
 ![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
 
-* Agora vamos instalar as dependências do projeto
-#####
+* Agora vamos instalar as dependências do projeto<br>
 `pip install -r requirements.txt`
 
 * Agora só falta colocarmos nosso token, que está disponível no Discord Developers. Na raiz do projeto crie um novo arquivo `.env` e ele coloque seu token. `TOKEN=coloqueseutokenaqui`
