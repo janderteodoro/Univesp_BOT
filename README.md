@@ -3,7 +3,7 @@ Projeto Integrador, BOT Informacional que ajuda alunos e interessados, a respeit
 As informaçõe no BOT estão estáticas, pois não temos uma API da Universidade, com determinadas informaçções para consumir. Porém, é um ótima maneira de demonstrar o básico de um projeto de bot já com a utilização de padrẽs de projeto. 
 
 ## Tecnologias Utilizadas 
-* <p><a href="https://discord.com/developers/applications" target="_blank">Discord Developer 💬</a></p>
+* <p><a href="https://discord.com/developers/applications" target="_blank" rel="noopener noreferrer">Discord Developer 💬</a></p>
 * [Python 🐍](https://www.python.org/)
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
