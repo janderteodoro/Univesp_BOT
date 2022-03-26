@@ -17,5 +17,29 @@ Após ter o Python instalado, vamos baixar o código com o git ou baixando o có
 Então temos essa estrutura de código.
 
 ![Estrutura do Código](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/codeStructure.png?raw=true)
+
+Então criamos um ambiente virtual do Python: 
+
+* Linux 
+`python3 -m venv venv`
+
+* Windows 
+`py -m venv venv`
+
+Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:
+
+* Linux 
+`source venv/bin/activate`
+
+* Windows 
+`venv\Scripts\activate`
+
+Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
+
+* Ambiente ativo
+![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
+
+* Estrutura do código após criar ambiente virtual
+![Estutura atualizada](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144440-223x297.png?raw=true)
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
