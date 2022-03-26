@@ -1,6 +1,6 @@
 # Univesp_BOT
 **Projeto Integrador, BOT Informacional que ajuda alunos e interessados, a respeito da UNIVESP.
-As informaçõe no BOT estão estáticas, pois não temos uma API da Universidade, com determinadas informaçções para consumir. Porém, é um ótima maneira de demonstrar o básico de um projeto de bot já com a utilização de padrẽs de projeto.**
+As informações no BOT estão estáticas, pois não temos uma API da Universidade, com determinadas informações para consumir. Porém, é um ótima maneira de demonstrar o básico de um projeto de bot já com a utilização de padrões de projeto.**
 
 ## Tecnologias Utilizadas 
 * [Discord Developer 💬](https://discord.com/developers/applications)
@@ -47,3 +47,6 @@ Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente v
 `pip install -r requirements.txt`
 
 * Agora só falta colocarmos nosso token, que está disponível no Discord Developers. Na raiz do projeto crie um novo arquivo `.env` e ele coloque seu token. `TOKEN=coloqueseutokenaqui`
+
+## Agora é só rodar 
+Abra um terminal na raiz e com o ambiente virtual ativo digite `python3 main.py` e converse com seu BOT pelo discord. 
