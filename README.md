@@ -20,32 +20,28 @@ Então temos essa estrutura de código.
 
 Então criamos um ambiente virtual do Python: 
 
-* Linux 
-&nbsp;
+* Linux
 `python3 -m venv venv`
 
 * Windows
-&nbsp; 
 `py -m venv venv`
 
 Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:
 
 * Linux
-&nbsp; 
 `source venv/bin/activate`
 
 * Windows
-&nbsp; 
 `venv\Scripts\activate`
 
 Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
 
 * Ambiente ativo
-&nbsp;
-![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
+![Ambiente Ativo]
+(https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
 
 * Estrutura do código após criar ambiente virtual
-&nbsp;
-![Estutura atualizada](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144440-223x297.png?raw=true)
+![Estutura atualizada]
+(https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144440-223x297.png?raw=true)
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
