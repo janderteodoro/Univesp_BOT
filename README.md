@@ -7,14 +7,14 @@ As informaçõe no BOT estão estáticas, pois não temos uma API da Universidad
 * [Python 🐍](https://www.python.org/)
 
 ## Como criar um BOT  
-É fácil criar um robô no Discord, porém acredito que seria bem mais fácil seguir um vídeo. Pensando nisso disponibilizarei um link de um vídeo qual explica como criar um bot, já com script python indexado. 
+**É fácil criar um robô no Discord, porém acredito que seria bem mais fácil seguir um vídeo. Pensando nisso disponibilizarei um link de um vídeo qual explica como criar um bot, já com script python indexado.**
 
 📎 [Link do video 📹](https://www.youtube.com/watch?v=Pi5I-vVxPZw)
 
 ## Como rodar o BOT 
-Primeiramente precisamos ter o Python instalado na máquina. 
+**Primeiramente precisamos ter o Python instalado na máquina. 
 Após ter o Python instalado, vamos baixar o código com o git ou baixando o código fonte em .zip.
-Então temos essa estrutura de código.
+Então temos essa estrutura de código.**
 
 ![Estrutura do Código](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/codeStructure.png?raw=true)
 
