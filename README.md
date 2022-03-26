@@ -15,6 +15,7 @@ As informaçõe no BOT estão estáticas, pois não temos uma API da Universidad
 Primeiramente precisamos ter o Python instalado na máquina. 
 Após ter o Python instalado, vamos baixar o código com o git ou baixando o código fonte em .zip.
 Então temos essa estrutura de código.
+
 ![Estrutura do Código](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/codeStructure.png?raw=true)
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
