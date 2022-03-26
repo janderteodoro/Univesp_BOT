@@ -5,5 +5,16 @@ As informaçõe no BOT estão estáticas, pois não temos uma API da Universidad
 ## Tecnologias Utilizadas 
 * [Discord Developer 💬](https://discord.com/developers/applications)
 * [Python 🐍](https://www.python.org/)
+
+## Como criar um BOT  
+É fácil criar um robô no Discord, porém acredito que seria bem mais fácil seguir um vídeo. Pensando nisso disponibilizarei um link de um vídeo qual explica como criar um bot, já com script python indexado. 
+
+📎 [Link do video 📹](https://www.youtube.com/watch?v=Pi5I-vVxPZw)
+
+## Como rodar o BOT 
+Primeiramente precisamos ter o Python instalado na máquina. 
+
+Após ter o Python instalado, vamos baixar o código com o git ou baixando o código fonte em .zip 
+
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
