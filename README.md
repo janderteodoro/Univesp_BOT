@@ -40,12 +40,16 @@ Então temos essa estrutura de código.**
 
 Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
 
-* Ambiente ativo
-#####
-![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
 
 * Estrutura do código após criar ambiente virtual
 #####
 ![Estutura atualizada](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144440-223x297.png?raw=true)
+
+* Ambiente ativo
+#####
+![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
+
+* Agora vamos instalar as dependências do projeto
+`pip install -r requirements.txt`
 ## Variáveis de Ambiente 
 TOKEN=ABCXPTO
