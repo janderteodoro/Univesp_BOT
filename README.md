@@ -21,17 +21,21 @@ Então temos essa estrutura de código.
 Então criamos um ambiente virtual do Python: 
 
 * Linux
+#####
 `python3 -m venv venv`
 
 * Windows
+#####
 `py -m venv venv`
 
 Agora ativamos o ambiente que criamos, para poder instalar as dependências de maneira isolada:
 
 * Linux
+#####
 `source venv/bin/activate`
 
 * Windows
+#####
 `venv\Scripts\activate`
 
 Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
