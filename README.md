@@ -37,7 +37,7 @@ Agora ativamos o ambiente que criamos, para poder instalar as dependências de m
 Após ativar, temos a seguinte extrutura, e uma indicação que nosso ambiente virtual está ativo
 
 * Ambiente ativo
-&nbsp;
+#####
 ![Ambiente Ativo](https://github.com/janderteodoro/Univesp_BOT/blob/master/img/Captura%20de%20Tela-20220326144137-409x20.png?raw=true)
 
 * Estrutura do código após criar ambiente virtual
